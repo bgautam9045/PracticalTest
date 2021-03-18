@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("../Images/bg.jfif");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background:rgba(black, black,white, 0.1)
+    
+
+
+}
+#firstPart{
+    margin: 150px;
+    margin-bottom: 0px;
+}
+#secondPart{
+    margin-bottom: 200px;
+    margin-left: 123px;
+    
+}
+
+#firstPart h2{
+
+    font-size: 50px;
+    color: white;
+
+
+}
+#firstPart p{
+    color: white;
+}
+#secondPart p{
+   color:white;
+    padding: 5px;
+    
+}
+
+.one{
+    
+    height: 40px;
+    width: 180px;
+    margin: 20px;
+    float: left;
+    
+}
+#are1{
+    background-color: green;
+    border-radius: 8px;
+    padding: 5px;
+
+}
+#are2{
+    outline-style: solid;
+    border-radius: 8px !important;
+}
+
+.navbar-brand{
+    color: white;
+}
+
+.navbar-nav a{
+    color: white;
+    
+}
