@@ -1,16 +1,16 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing:border-box;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     
 }
 body{
     background-image: url("../Images/bg.jfif");
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
     background:rgba(black, black,white, 0.1)
-    
-
-
-}
+    }
 #firstPart{
     margin: 150px;
     margin-bottom: 0px;
@@ -33,28 +33,29 @@ body{
 }
 #secondPart p{
    color:white;
-    padding: 5px;
-    
 }
 
 .one{
+    padding: 18px;
     
-    height: 40px;
-    width: 180px;
     margin: 20px;
     float: left;
     
 }
+
 #are1{
     background-color: green;
     border-radius: 8px;
-    padding: 5px;
-
+    height: 40px;
+    width: 130%;
 }
 #are2{
     outline-style: solid;
-    border-radius: 8px !important;
+    border-radius: 8px ;
+    height: 30px;
+    width: 120%;
 }
+
 
 .navbar-brand{
     color: white;
@@ -64,3 +65,50 @@ body{
     color: white;
     
 }
+hr{
+    height:1px;
+    border-width:0;
+    color:gray;
+    background-color:gray;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 0px;
+}
+
+.navbar-nav button{
+    
+    background-color: green;
+}
+
+#navbarDropdown1{
+    color: white;
+}
+#navbarDropdown{
+    color: white;
+}
+.navbar-nav i{
+    color: white;
+    padding: 15px;
+
+}
+.navbar-nav button{
+    margin-right: 40px;
+}
+.navbar-brand img{
+    margin-left: 40px;
+}
+
+.container1 i{
+    color: white;
+    padding: 10px;
+}
+.container1 p{
+    color: white;
+}
+.container1 p i{
+    color: green;
+}
+
+
+
+
